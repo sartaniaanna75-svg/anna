@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генератор идей для постов</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      background: #fff;
+      border-radius: 16px;
+      padding: 48px 40px;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      color: #1a1a2e;
+      margin-bottom: 32px;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      background: #f8f9ff;
+      border-radius: 10px;
+      border-left: 4px solid #667eea;
+      font-size: 1.05rem;
+      color: #333;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+    li:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Генератор идей для постов</h1>
+    <ul>
+      <li>5 идей постов экспертов</li>
+      <li>3 идеи сторис на сегодня</li>
+      <li>Контент план на неделю</li>
+    </ul>
+  </div>
+</body>
+</html>
